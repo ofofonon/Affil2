@@ -88,7 +88,7 @@ function right1(){
 }
 
 function right2(){
-    document.getElementById('right').style.right='-50%';
+    document.getElementById('right').style.right='-100%';
     document.getElementById('right2').style.display='none';
 }
 
