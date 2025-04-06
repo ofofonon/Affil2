@@ -1,42 +1,5 @@
 
-@font-face {
-    font-family: 'Gilroy-Bold ☞';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
-    }
-    
 
-    @font-face {
-    font-family: 'Gilroy-Heavy ☞';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gilroy-Light ☞';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gilroy-Medium ☞';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gilroy-Regular ☞';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
-    }
 
 
 
@@ -65,7 +28,7 @@
       }
 
 *{
-    font-family: 'Gilroy-Bold ☞';
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -165,6 +128,7 @@ body{
     border: 2.5px silver solid;
     text-align: center;
     z-index: 7;
+    
 }
 
 .itm{
@@ -201,7 +165,7 @@ body{
     top: 39%;
     left: 30%;
     z-index: 7;
-    font-family: 'Gilroy-Bold ☞';
+    font-family: 'Poppins', sans-serif;
 }
 
 .stsm{
@@ -217,7 +181,7 @@ body{
     top: 10%;
     left: 30%;
     z-index: 7;
-    font-family: 'Gilroy-Bold ☞';
+    font-family: 'Poppins', sans-serif;
 }
 .sn:hover{
   background-color: rgba(255, 255, 255, 0.856);
@@ -229,7 +193,7 @@ body{
 .logo{
     position: absolute;
     left: 5%;
-    font-family: 'Gilroy-Heavy ☞';
+    font-family: 'Poppins', sans-serif;
    
 }
 
@@ -760,21 +724,22 @@ html{
     }
 
     .itmsm{
-        width: 20%;
-        height: 70px;
+        width: 25%;
+        height: 120px;
         background-color: transparent;
         border-radius: 0%;
         display: flex;
         float: left;
-        margin-left: 5px;
+        margin-left: 0px;
         box-shadow: 0px 0px 0px black;
         
     }
 
         .si{
-        width:110%;
-        height:110%;
+        width:140%;
+       height: 95%;
         border-radius: 50%; 
+     
     }
 
 
